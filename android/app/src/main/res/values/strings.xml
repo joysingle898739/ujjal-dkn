@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">উজ্জ্বল ভাইয়ের দোকান</string>
+    <string name="title_activity_main">উজ্জ্বল ভাইয়ের দোকান</string>
+    <string name="package_name">com.uzzalbhai.displayapp</string>
+    <string name="custom_url_scheme">com.uzzalbhai.displayapp</string>
+</resources>

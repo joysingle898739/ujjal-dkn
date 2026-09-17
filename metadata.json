@@ -1,0 +1,6 @@
+{
+  "name": "উজ্জ্বল ভাইয়ের দোকান",
+  "description": "মোবাইল ডিসপ্লে স্টক ও কেনা দাম হিসাব রাখার স্মার্ট ডিজিটাল খাতা",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#f59e0b" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+  <rect x="12" y="12" width="488" height="488" rx="100" fill="none" stroke="url(#goldGrad)" stroke-width="6" opacity="0.6"/>
+
+  <!-- Phone Body -->
+  <g filter="url(#shadow)">
+    <rect x="136" y="80" width="240" height="352" rx="36" fill="#1e293b" stroke="url(#goldGrad)" stroke-width="8" />
+    
+    <!-- Phone Screen -->
+    <rect x="152" y="112" width="208" height="288" rx="20" fill="url(#screenGrad)" />
+    
+    <!-- Phone Notch/Speaker -->
+    <rect x="226" y="94" width="60" height="6" rx="3" fill="#64748b" />
+    <circle cx="210" cy="97" r="4" fill="#64748b" />
+
+    <!-- Screen Content: Display Icon & Taka Symbol -->
+    <!-- Gold Display Outline -->
+    <rect x="176" y="146" width="160" height="110" rx="12" fill="#0f172a" stroke="#f59e0b" stroke-width="4" stroke-dasharray="6,4" />
+    
+    <!-- Taka Symbol ৳ -->
+    <text x="256" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="900" fill="url(#goldGrad)" text-anchor="middle">৳</text>
+
+    <!-- Display Brand / Quality tags -->
+    <rect x="176" y="274" width="75" height="22" rx="6" fill="#3b82f6" opacity="0.3" />
+    <text x="213" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#93c5fd" text-anchor="middle">DISPLAY</text>
+
+    <rect x="261" y="274" width="75" height="22" rx="6" fill="#10b981" opacity="0.3" />
+    <text x="298" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#6ee7b7" text-anchor="middle">ORIGINAL</text>
+
+    <!-- Text: উজ্জ্বল ভাই -->
+    <text x="256" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">উজ্জ্বল ভাইয়ের দোকান</text>
+    
+    <!-- Subtitle: কেনা দাম খাতা -->
+    <text x="256" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#f59e0b" text-anchor="middle">আসল কেনা দাম খাতা</text>
+  </g>
+</svg>
